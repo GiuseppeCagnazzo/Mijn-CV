@@ -1,0 +1,181 @@
+*{
+  /*
+  outline: 1px dashed black;
+  */
+
+  margin: 0;
+  padding: 0;
+
+  font-style: Arial;
+}
+
+p {
+  padding-bottom: 10px;
+}
+
+a {
+  color: black;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 20% 1fr 1fr;
+  /*
+  grid-template-rows: 200px;
+  */
+  grid-auto-rows: minmax(100px, auto);
+  background-color: #6495ED;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  border-bottom: solid 10px black;
+  font-family: Arial;
+  
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #D3D3D3;
+  width:100%;
+  height:80px;
+  /*
+  grid-template-rows: 1fr;
+  */
+  margin-top: 10px;
+  border-top: solid 10px black;
+
+}
+
+.linkedin {
+  justify-content: flex-end;
+  align-self: center;
+  grid-column: 3 / 2;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+img{
+  width: 190px;
+  height: 190px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: #6495ED;
+  border-style: solid;
+  grid-column: 1 / 2;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  font-family: Arial;
+  background-color: #D3D3D3;
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto 30px auto;
+  padding: 15px;
+  border: solid 2px #808080;
+
+}
+
+.one {
+  font-family: Arial;
+  font-weight: bold;
+}
+
+.two {
+  grid-column: 2 / 5;
+}
+
+.three {
+  font-weight: bold;
+}
+
+.four {
+  grid-column: 2 / 5;
+}
+
+.five {
+  font-weight: bold;
+}
+
+.six {
+  grid-column: 2 / 5;
+
+}
+
+.seven {
+  font-weight: bold;
+}
+
+.eigth {
+  grid-column: 2 / 3;
+
+}
+
+.nine {
+  grid-column: 3 / 4;
+}
+
+.ten {
+  grid-column: 3 / 5;
+}
+
+.eleven {
+  grid-column: 2 / 3;
+}
+
+.twelve {
+  grid-column: 3 / 4;
+}
+
+.fourteen {
+  grid-column: 2 / 3;
+}
+
+.fifteen{
+  grid-column: 3 / 4;
+}
+
+.sixteen {
+  grid-column: 2 / 3;
+}
+
+.info {
+  justify-content:center;
+  align-items: center;
+  grid-column: 2 / 3;
+  font-size: 32px;
+}
+
+.info-2 {
+  justify-content: flex-end;
+  font-size: 18px;
+
+}
+
+.p-1 {
+  font-size: 30;
+}
+
+table {
+    border-style: hidden;
+    width: auto;
+    height: auto;
+    text-align:left;
+
+}
+
+td {
+  padding: 5px;
+}
+
+li {
+  list-style-position: inside;
+
+}
